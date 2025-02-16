@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rl-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Pieniak"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+matplotlib = "^3.10.0"
+pygame = "^2.6.1"
+gymnasium = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
